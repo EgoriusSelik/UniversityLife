@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1050253589424",
+    "project_id": "login-register-universitylife",
+    "storage_bucket": "login-register-universitylife.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1050253589424:android:fcd70bde267a4bc55cb475",
+        "android_client_info": {
+          "package_name": "com.example.universitylife"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1050253589424-v2ln3hlmuuflpt53nhn55htk5732e0qb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBu64dw7-kt051A0f41b1TFhqf0LN9cKJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1050253589424-v2ln3hlmuuflpt53nhn55htk5732e0qb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

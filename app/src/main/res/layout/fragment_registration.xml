@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".registration.RegistrationFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/email_field_1reg_low"
+                android:layout_width="0dp"
+                android:layout_height="65dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="35dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/email_field_1reg">
+
+                <EditText
+                    android:id="@+id/pass_reg_confirm"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="22dp"
+                    android:background="@drawable/login_field"
+                    android:ems="10"
+                    android:fontFamily="@font/roboto"
+                    android:inputType="textPassword"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/textView5_3reg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="0dp"
+                    android:fontFamily="@font/roboto"
+                    android:text="Подтвердите пароль"
+                    android:textAppearance="@style/email" />
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/imageViewreg"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="74dp"
+                android:layout_marginEnd="80dp"
+                android:src="@drawable/login_screen_photo"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:id="@+id/enterreg"
+                android:layout_width="290dp"
+                android:layout_height="35dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="292dp"
+                android:layout_marginEnd="35dp"
+                android:fontFamily="@font/roboto_bold"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="Регистрация"
+                android:textAppearance="@style/login_screen_text"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <RelativeLayout
+                android:id="@+id/email_fieldreg"
+                android:layout_width="0dp"
+                android:layout_height="65dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="340dp"
+                android:layout_marginEnd="35dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <EditText
+                    android:id="@+id/email_reg"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="22dp"
+                    android:background="@drawable/login_field"
+                    android:ems="10"
+                    android:fontFamily="@font/roboto"
+                    android:foregroundGravity="bottom"
+                    android:inputType="textEmailAddress"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/textView5reg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="0dp"
+                    android:fontFamily="@font/roboto"
+                    android:text="@string/email"
+                    android:textAppearance="@style/email" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/email_field_1reg"
+                android:layout_width="0dp"
+                android:layout_height="65dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="35dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/email_fieldreg">
+
+                <EditText
+                    android:id="@+id/pass_reg"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="22dp"
+                    android:background="@drawable/login_field"
+                    android:ems="10"
+                    android:fontFamily="@font/roboto"
+                    android:inputType="textPassword"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/textView5_1reg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="0dp"
+                    android:fontFamily="@font/roboto"
+                    android:text="Пароль"
+                    android:textAppearance="@style/email" />
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/button_reg"
+                android:layout_width="0dp"
+                android:layout_height="55dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="35dp"
+                android:background="@drawable/button_border"
+                android:text="Регистрация"
+                app:backgroundTint="@null"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/email_field_1reg_low" />
+
+            <ImageView
+                android:id="@+id/imageView2reg"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="35dp"
+                android:src="@drawable/question"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/link_to_enter"
+                android:layout_width="253dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="64dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="64dp"
+                android:fontFamily="@font/roboto"
+                android:gravity="center"
+                android:text="Нет аккаунта? Зарегистрироваться"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.47"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button_reg" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</FrameLayout>

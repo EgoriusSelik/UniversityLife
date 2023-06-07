@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/news"
+        android:title="Новости"
+        android:icon="@drawable/news_icon_menu"/>
+    <item
+        android:id="@+id/calendar"
+        android:title="Календарь"
+        android:icon="@drawable/calendar_icon_menu"/>
+    <item
+        android:id="@+id/profile"
+        android:title="Профиль"
+        android:icon="@drawable/profile_icon_menu"/>
+</menu>

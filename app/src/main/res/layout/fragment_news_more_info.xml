@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout_buttonsheet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    app:behavior_hideable="true"
+    app:layout_behavior="android.support.design.widget.BottomSheetBehavior">
+
+    <Button
+        android:id="@+id/set_mero"
+        android:layout_width="290dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_border"
+        android:text="Добавить в календарь"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/long_description_sheet" />
+
+    <TextView
+        android:id="@+id/name_mero_sheet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Мюзикл «Наш звёздный час»"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/image_mero_sheet"
+        android:layout_width="332dp"
+        android:layout_height="214dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/for_more_info"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name_mero_sheet" />
+
+    <TextView
+        android:id="@+id/long_description_sheet"
+        android:layout_width="322dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:fontFamily="@font/roboto"
+        android:text="Школа мюзикла рада представить зрителям постановку «Наш звёздный час», созданный по мотивам серии музыкальных фильмов кинокомпании Уолта Диснея «Классный мюзикл».По сюжету двух абсолютно разных героев, капитана команды по баскетболу и президента клуба науки, объединяют прослушивания для школьного мюзикла. Никто не знал, как это событие может изменить их школу… Заинтригован? Ещё бы! «Наш звёздный час» — первая постановка столь масштабного уровня для коллектива и Университета. Приходи 17 мая в 19:00 в Большой концертный зал РТУ МИРЭА по адресу: проспект Вернадского, д. 86. Вход свободный!"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_mero_sheet" />
+
+    <Button
+        android:id="@+id/set_reminder"
+        android:layout_width="121dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/button_border_to_grey"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Напомнить"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/set_mero"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/set_reminder3"
+        android:layout_width="121dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/button_border_to_grey"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Убрать напоминание"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/set_mero"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
